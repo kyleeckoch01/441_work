@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Bebas-Regular';
+  src: url('../fonts/Bebas-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather-Light';
+  src: url('../fonts/Merriweather-Light.otf') format('opentype');
+  font-weight: lighter;
+  font-style: normal;
+
+}
