@@ -1,0 +1,57 @@
+* {
+  background-color: #ededed;
+
+}
+
+.title {
+  font-family: 'Bebas-Regular';
+  font-size: 40px;
+  text-align: center;
+  color: #4f6c6b;
+}
+
+h3 {
+  font-family: 'Bebas-Regular';
+  text-align: center;
+  padding: 2px;
+  font-size: 36px;
+  color: #020943;
+  border: 8px solid #f7ddd9;
+}
+
+.description {
+  font-family: 'Merriweather-Light';
+  text-align: center;
+  font-size: 15px;
+  padding: 2px;
+  color: #020943;
+}
+h4 {
+  font-family: 'Bebas-Regular';
+  text-align: center;
+  padding: 2px;
+  font-size: 36px;
+  color: #020943;
+  border: 8px solid #f7ddd9;
+}
+
+.mine {
+  font-family: 'Merriweather-Light';
+  text-align: center;
+  font-size: 15px;
+  padding: 2px;
+  color: #020943;
+}
+
+@media (min-width: 640px){
+
+...
+
+}
+
+
+@media (min-width: 1200px){
+
+...
+
+}
