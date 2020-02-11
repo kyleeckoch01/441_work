@@ -1,0 +1,34 @@
+*{
+  background-color: #b29b8d
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Alex-Brush';
+  font-size: 48px;
+  color: white;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.first {
+  text-align: center;
+  font-family: 'Merriweather-Light';
+  color: white;
+  font-size: 30px;
+  padding: 2px;
+}
+
+.now {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 2px;
+}

@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Alex-Brush';
+  src: url('../fonts/AlexBrush-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather-Light';
+  src: url('../fonts/Merriweather-Light.otf') format('opentype');
+  font-weight: lighter;
+  font-style: normal;
+
+}
