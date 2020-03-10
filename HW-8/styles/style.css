@@ -1,0 +1,35 @@
+#square1 {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  position: absolute;
+  left: 0;
+  top: 600;
+}
+
+#square2 {
+  width: 100px;
+  height:100px;
+  background: blue;
+  position: absolute;
+  left: 400;
+  top: 500;
+}
+
+#square3 {
+  width: 100px;
+  height:100px;
+  background: blue;
+  position: absolute;
+  left: 200;
+  top: 400;
+}
+
+#square4 {
+  width: 100px;
+  height:100px;
+  background: blue;
+  position: absolute;
+  left: 200;
+  top: 200;
+}
