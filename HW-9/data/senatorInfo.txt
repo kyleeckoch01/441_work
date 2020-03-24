@@ -1,0 +1,9 @@
+<senator>
+
+<name>Sen. Michael Enzi</name>
+<role>Senator</role>
+<state>WY</state>
+<rank>Senior</rank>
+<class>Class 2</class>
+
+</senator>

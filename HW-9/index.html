@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Homework 9" />
+    <meta name="author" content="Kylee Koch" />
+    <meta name="viewport" content=" width=device-width, initial-scale=1.0" />
+
+    <script src= "libs/jquery-3.3.1.min.js"></script>
+    <script src= "scripts/jsonajax.js"></script>
+    <script>
+
+    (function($){
+      $.fn.change = function () {
+      this.css("background-color");
+      this.css("color", "black");
+
+      return this;
+      };
+
+    }(jQuery));
+    $(function () {
+    $("button").click(function () {
+    $("#senatorInformation").change().fadeOut("slow").fadeIn("slow");
+    });
+
+});
+
+
+  </head>
+
+
+  <body>
+    <div id="senatorInformation"></div>
+
+    <div id="changeDiv"></div>
+
+    <button id="btnSubmit">See Information</button>
+
+    <div id="senatorInformation"></div>
+  </body>
+
+    <br><br>
+
+
+  <img src="./imgs/enzi.jpg">
+
+
+
+</html>
