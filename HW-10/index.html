@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="scripts/main.js"></script>
+
+  <style>
+    body {
+      background-color: #ffc391;
+      font-size: 42px
+    }
+    </style>
+
+</head>
+
+<body>
+  <p>We are the Champions</p>
+  <canvas id="myCanvas" height="600" width="600" style="border: 16px solid #ff8a28;"></canvas>
+  <audio id="song" src="./audio/champions.mp3" controls="controls"></audio>
+
+  <script>
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    var x = 50;
+    var y = 50;
+    var x2 = 300;
+    var y2 = 300;
+    ctx.fillStyle = "#ffee5a";
+
+    setInterval(update, 1000 / 60);
+
+    function update() {
+      drawSquare();
+    }
+
+    function drawSquare() {
+      ctx.clearRect(0, 0, 625, 625);
+      ctx.fillRect(x, y, 150, 150);
+
+      ctx.fillRect(x2, y2, 125, 125);
+    }
+
+    $(document).ready(function() {
+        $(this).keypress(function(event) {
+            getKey(event);
+        });
+    });
+
+
+    function moveUp() {
+      y = y - 10;
+    }
+
+    function moveDown() {
+      y = y + 10;
+    }
+
+    function moveLeft() {
+      x = x - 10;
+    }
+
+    function moveRight() {
+      x = x + 10;
+    }
+
+
+
+    function getKey(event) {
+    var char = event.which || event.keyCode;
+    var actualLetter = String.fromCharCode(char);
+    if (actualLetter == "w") {
+        moveUp();
+    }
+    if (actualLetter == "s") {
+        moveDown();
+    }
+
+    if (actualLetter == "a") {
+        moveLeft();
+    }
+    if (actualLetter == "d") {
+        moveRight();
+    }
+
+}
+
+  </script>
+
+</body>
+</html>
