@@ -1,0 +1,205 @@
+* {
+  background-color: #f0ede6;
+}
+
+hr {
+  width: 100%;
+  height: 30px;
+  background: #e59e86;
+}
+
+.texture {
+  padding: 2px;
+}
+/* menu css*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'OpenSans-Light';
+  background-color: #b2dedd;
+  border:  solid #b2dedd;
+}
+
+
+.drop a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.drop a:hover {
+  background-color: #1fa5a6;
+ color: white;
+}
+
+
+/*index css*/
+h1 {
+  text-align: center;
+  font-family: 'Satisfy-Regular';
+  padding: 5px;
+  color: #dd7564;
+  font-size: 85px;
+
+}
+
+.welcome-01 {
+  text-align: center;
+  font-family: 'OpenSans-Regular';
+  padding: 5px;
+  color: #1fa5a6;
+  font-size: 45px;
+}
+
+.welcome {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 10px;
+}
+/*about css*/
+h2 {
+  text-align: center;
+  font-family: 'Satisfy-Regular';
+  padding: 5px;
+  color: #dd7564;
+  font-size: 85px;
+}
+
+.about-me {
+  text-align: center;
+  font-family: 'OpenSans-Regular';
+  padding: 5px;
+  color: #1fa5a6;
+  font-size: 45px;
+
+}
+
+.image01 {
+  text-align: center;
+  padding: 2em 2em;
+}
+
+/*gallery css*/
+h3 {
+  text-align: center;
+  font-family: 'Satisfy-Regular';
+  padding: 5px;
+  color: #dd7564;
+  font-size: 55px;
+}
+
+.first {
+  text-align: center;
+  padding: 5px;
+  font-family: 'OpenSans-Regular';
+  font-size: 15px;
+  color: #1fa5a6;
+}
+
+.second {
+  text-align: center;
+  padding: 5px;
+  font-family: 'OpenSans-Regular';
+  font-size: 15px;
+  color: #1fa5a6;
+}
+
+.third {
+  text-align: center;
+  padding: 5px;
+  font-family: 'OpenSans-Regular';
+  font-size: 15px;
+  color: #1fa5a6;
+}
+
+.fourth {
+  text-align: center;
+  padding: 5px;
+  font-family: 'OpenSans-Regular';
+  font-size: 15px;
+  color: #1fa5a6;
+}
+
+.fifth {
+text-align: center;
+padding: 5px;
+font-family: 'OpenSans-Regular';
+font-size: 15px;
+color: #1fa5a6;
+}
+
+.sixth {
+  text-align: center;
+  padding: 5px;
+  font-family: 'OpenSans-Regular';
+  font-size: 15px;
+  color: #1fa5a6;
+}
+
+/*contact css*/
+h4 {
+  text-align: center;
+  font-family: 'Satisfy-Regular';
+  padding: 5px;
+  color: #dd7564;
+  font-size: 55px;
+}
+
+.email {
+  text-align: center;
+  font-family: 'OpenSans-Light';
+  padding: 5px;
+  color: #1fa5a6;
+  font-size: 35px;
+}
+
+.phone {
+  text-align: center;
+  font-family: 'OpenSans-Light';
+  padding: 5px;
+  color: #1fa5a6;
+  font-size: 35px;
+}
+
+.comment {
+  text-align: center;
+  font-family: 'OpenSans-Light';
+  padding: 5px;
+  color: #b2dedd;
+  font-size: 35px;
+}
+
+#button1 {
+  height: 30px;
+  width: 180px;
+  background-color: #b2dedd;
+  font-family: 'OpenSans-Light';
+  font-size: 18px;
+  color: white;
+}
+
+#button1:hover {
+  background-color: #1fa5a6;
+}
+
+input[type=text] {
+  width: 50%;
+border: 8px solid #1fa5a6;
+border-radius: 18px;
+font-family: 'OpenSans-Light';
+font-size: 15px;
+}
+
+.contactinfo {
+  text-align: center;
+  font-family: 'OpenSans-Light';
+  padding: 5px;
+  color: #b2dedd;
+  font-size: 35px;
+}
